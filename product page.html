@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzM0PkbrMW5HezSq1RjSEfZlqolX5eF4G0lg&usqp=CAU.jpg');  
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-rendering: -webkit-optimize-contrast;
+ background-rendering: pixelated;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+{
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Unique Library</h1>
+  <p>A website created by Tuya Battulga.</p>
+</div>
+
+
+<div class="navbar">
+  <a href="Homepage.html">Homepage</a>
+  <a href="product page.html">Product page</a>
+  <a href="about us.html">About us</a>
+  <a href="contact us.html">Contact us</a>
+  <a href="login page.html" class="right">Login</a>
+  <a href="signup.html" class="right">Sign up</a>
+</div>
+
+<h2 style="text-align:center">Special Products</h2>
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTH3VXYIpJSsVfSUFpYvdUM1yWWGTc9Zk-0PQ&usqp=CAU.jpg" alt="Denim Jeans" style="width:70%">
+  <h1>Shelf ladder bookcase</h1>
+  <p>2019 best furniture under 50$ dollars best deals high sales ladder book sales bookshelf affiliate program dining room living room kitchen bedroom good cool design amazon modern design furniture bookcase discount best choice wood furniture simple premium quality casual ideal amazing decor easy assembly perfect for books collectables solid wood construction for increased durability and longevity beautiful furniture alternative to your traditional rectangular bookcase</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<h2 style="text-align:center">The Best sell</h2>
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTXvc5biBVS90lPKSpo6t-HvHT0C7Sy9ATGLg&usqp=CAU.jpg" alt="Denim Jeans" style="width:70%">
+  <h1>50 instagram post ideas</h1>
+  <p class="price">$49.99</p>
+  <p>Frequently thinking about what to post on your social networks, especially on Instagram where you can’t post any blog posts, only images? Never run out of ideas with ebook.From now on the creation of your content will be easy as never before.</p>
+  <p><button>Add to Cart</button></p>
+  
+  <h2 style="text-align:center">The Best sell</h2>
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSINpBTrliSnNtIAevvphexvRp559UvMwZ_vg&usqp=CAU.jpg" alt="Denim Jeans" style="width:70%">
+  <h1>how to earn online</h1>
+  <p class="price">$29.99</p>
+  <p>Money is a great need for the current world. To get money you have to earn it. Well there is an online world which gives you enough money. In this book I have discussed every methods of earning money online. All steps for earning online are well explained with added tips. If you follow all methods then I can assure that you can earn 50$ to 100$+ per day.</p>
+  <p><button>Add to Cart</button></p>
+  
+  <h2 style="text-align:center">The Best sell</h2>
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjwtkvDPbSSGgzVgr9JzUb30CmyctcW9JbjQ&usqp=CAU.jpg" alt="Denim Jeans" style="width:70%">
+  <h1>The Overstory</h1>
+  <p class="price">$19.99</p>
+  <p>In our humble opinion, the best and most inspiring novel of the year. Powers, the least known of America's greatest novelists, writes an astonishing and ingenious tale of nature's salvation—and our urgent need to save it. You will never look at a tree the same way again.</p>
+  <p><button>Add to Cart</button></p>
+  
+  <h2 style="text-align:center">The Best sell</h2>
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjpbJZ7qmyjn4ljYVGR1aawWnbRzCTjLWeTQ&usqp=CAU.jpg" 
+  alt="Denim Jeans" style="width:70%">
+  <h1>Ragan Lipsey</h1>
+  <p class="price">$27.35</p>
+  <p>Willa Knox is a laid-off journalist who finds her life, family and house in New Jersey falling apart in 2016. In the same house in the 1880s, Thatcher Greenwood is persecuted for telling the truth. Though he's never mentioned, Donald Trump haunts every word in this critically acclaimed novel from the best-selling author of Flight Behavior and The Poisonwood Bible.</p>
+  <p><button>Add to Cart</button></p>
+  <h2 style="text-align:center">The Best sell</h2>
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJHFOQ7Hqm3WSz9Ac5MfhDEva8zONCJjeRwA&usqp=CAU.jpg" alt="Denim Jeans" style="width:70%">
+  <h1>Stephen King</h1>
+  <p class="price">$30.99</p>
+  <p>The Swedish author perceptively explores the constraints facing a female professor in the academic world—a minefield here of sex, jealousy, deceit and fear. A compelling, nuanced, at times comical portrait of a single, childless woman navigating middle age.</p>
+  <p><button>Add to Cart</button></p>
+  <h2 style="text-align:center">The Best sell</h2>
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlWLfsLo2ZVkm1scrTc9uwjuJqA28zUkybYw&usqp=CAU.jpg" alt="Denim Jeans" style="width:70%">
+  <h1>The $50 Weekly shop</h1>
+  <p class="price">$20.99</p>
+  <p>This debut novel, one of the buzzed-about books of the summer, is the unsettling tale of a Korean-American college student lured into acts of terrorism. Kwon dives into themes of faith, religion and love, revealing how communities built on good intentions can morph into violence.</p>
+  <p><button>Add to Cart</button></p>
+  <h2 style="text-align:center">The Best sell</h2>
+
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQROt3xqwuGUjrwb4NMXRwKBU3zo02Iohn_3Q&usqp=CAU.jpg" alt="Denim Jeans" style="width:70%">
+  <h1>The subtle art of not giving a ....</h1>
+  <p class="price">$29.99</p>
+  <p>This sequence of poems follows a fictional protagonist named Walker, a Canadian veteran suffering from post-traumatic stress disorder after surviving D-Day. Walker finds a new life as a reporter, and as we follow his travels from city to city via lyrical poem, we find beauty, sadness and new hope.</p>
+  <p><button>Add to Cart</button></p>
+  
+</div>
+</body>
+</html>

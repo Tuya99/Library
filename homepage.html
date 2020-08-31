@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unique Library</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzM0PkbrMW5HezSq1RjSEfZlqolX5eF4G0lg&usqp=CAU.jpg');  
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-rendering: -webkit-optimize-contrast;
+ background-rendering: pixelated;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Unique Library</h1>
+  <p>A website created by Tuya Battulga.</p>
+</div>
+<div class="navbar">
+  <a href="Homepage.html">Homepage</a>
+  <a href="product page.html">Product page</a>
+  <a href="about us.html">About us</a>
+  <a href="contact us.html">Contact us</a>
+  <a href="login page.html" class="right">Login</a>
+  <a href="signup.html" class="right">Sign up</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Unique Library</h2>
+    <h5>Photo of The Library:</h5>
+    <div class="fakeimg" style="height:200px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTjpmMG7VfGmT7ida9oJMWI_-xpEOnXHRxzgA&usqp=CAU.jpg">
+</div>
+    <p>We allow you easy access to commonly used features with all of the parameters and dimensions pre-defined to your specifications. Simply drag and drop onto your model and SOLIDWORKS takes care of the rest</p>
+    
+  <div class="main">
+    <h2>When is Unique Library designed?</h2>
+    <h5>The day is Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9TOEZJ1kKa2XaE5cohK45OZwGswbaNj5BSw&usqp=CAU.jpg">
+</div>
+    <p>intresting fact</p>
+    <p>A library is a curated collection of sources of information and similar resources, selected by experts and made accessible to a defined community for reference or borrowing, often in a quiet environment conducive to study.</p>
+    <br>
+    <h2>How many people are using the Unique Library?</h2>
+    <h5>Today, August 10, 2020</h5>
+    <div class="fakeimg" style="height:200px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfg1wl5xQc4LxA-kSXMLUsVdW1OCmpPim-WQ&usqp=CAU.jpg">
+</div>
+    <p>Currently peoply in The Unique Library is 200 people</p>
+    <p>Apparently, the practice of reading books creates cognitive engagement that improves lots of things, including vocabulary, thinking skills, and concentration. It also can affect empathy, social perception, and emotional intelligence, the sum of which helps people stay on the planet longer</p>
+  </div>
+
+
+</body>
+</html>
